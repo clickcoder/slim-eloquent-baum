@@ -1,0 +1,35 @@
+{
+   "name":"clickcoder/slim-eloquent-baum",
+   "description":"Nested Set pattern for Eloquent ORM in SlimPHP (by Baum)",
+   "keywords":[
+      "slim-eloquent-baum",
+      "laravel",
+      "eloquent",
+      "slim",
+      "baum",
+      "nested set",
+      "slimphp"
+   ],
+   "homepage":"http://github.com/clickcoder/slim-eloquent-baum",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"clickcoder",
+         "email":"kevin@kevindarren.com"
+      }
+   ],
+   "source":{
+      "url":"git://github.com/clickcoder/slim-eloquent-baum.git",
+      "type":"git",
+      "reference":"master"
+   },
+   "require":{
+      "illuminate/database": "*"
+   },
+   "autoload":{
+      "psr-0":{
+         "Slim\\Eloquent\\":""
+      }
+   },
+	"target-dir": "Slim/Eloquent"
+}
