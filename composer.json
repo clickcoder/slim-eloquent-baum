@@ -24,7 +24,8 @@
       "reference":"master"
    },
    "require":{
-      "illuminate/database": "*"
+      "illuminate/database": "*",
+      "baum/baum": "*"
    },
    "autoload":{
       "psr-0":{
